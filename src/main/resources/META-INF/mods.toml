@@ -1,0 +1,24 @@
+
+modLoader="javafml"
+loaderVersion="[43,)"
+license="All rights reserved"
+[[mods]]
+modId="zenithszoonies"
+version="1.19.2"
+displayName="Zenith's Zoonie's"
+logoFile="examplemod.png" #optional
+credits="Some textures and names: David and Suddar"
+authors="Zenith"
+description='''Funny Goofy mod'''
+[[dependencies.zenithszoonies]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.zenithszoonies]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"
