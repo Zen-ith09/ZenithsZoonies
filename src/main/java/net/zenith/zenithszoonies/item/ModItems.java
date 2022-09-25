@@ -1,7 +1,6 @@
 package net.zenith.zenithszoonies.item;
 
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -20,6 +19,18 @@ public class ModItems {
 
     public static final RegistryObject<Item> ZENITHSZOONIES = ITEMS.register("zenithszoonies",
             ()-> new Item(new Item.Properties().fireResistant().tab(ModCreativeModeTab.ZENITHS_ZOONIES)));
+
+    public static final RegistryObject<Item> SHLOOMPAFOOMPA = ITEMS.register("shloompafoompa",
+            ()-> new PickaxeItem(ModTiers.ZANIE, 8, 2f,
+                    new Item.Properties().fireResistant().tab(ModCreativeModeTab.ZENITHS_ZOONIES)));
+
+    public static final RegistryObject<Item> FOOMPASHLOOMPA = ITEMS.register("foompashloompa",
+            ()-> new AxeItem(ModTiers.ZANIE, 1, 0f,
+                    new Item.Properties().fireResistant().tab(ModCreativeModeTab.ZENITHS_ZOONIES)));
+
+    public static final RegistryObject<Item> FOOMPA = ITEMS.register("foompa",
+            ()-> new SwordItem(ModTiers.ZANIE, 9, 14f,
+                    new Item.Properties().fireResistant().tab(ModCreativeModeTab.ZENITHS_ZOONIES)));
 
 
 

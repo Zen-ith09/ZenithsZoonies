@@ -2,6 +2,15 @@
   "item.zenithszoonies.zanie":"Zanie",
   "item.zenithszoonies.raw_zanie":"Raw Zanie",
   "item.zenithszoonies.zenithszoonies":"Zeniths Zoonies",
+  "item.zenithszoonies.foompa":"Foompa",
+  "item.zenithszoonies.foompashloompa":"Foompa Shloompa",
+  "item.zenithszoonies.shloompafoompa":"Shloompa Foompa",
+
+  "block.zenithszoonies.zanie_block": "Block of Zanie",
+  "block.zenithszoonies.zanie_ore": "Zanie Ore",
+  "block.zenithszoonies.deepslate_zanie_ore": "Deepslate Zanie Ore",
+
+
 
   "itemGroup.zenithszoonies": "Zeniths Zoonies Zoons"
 }
